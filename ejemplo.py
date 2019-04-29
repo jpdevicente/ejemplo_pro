@@ -7,7 +7,8 @@ lock_2 = Lock()
 def contador_a():
 	while True:
 		with mi_lock:
-			print("queso")
+			print("lechuga")
+
 		with lock_2:
 			sleep(1)
 		
