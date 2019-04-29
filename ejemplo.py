@@ -26,3 +26,4 @@ t2 = Thread(target=contador_b)
 
 t1.start()
 t2.start()
+# uff me arerementi
