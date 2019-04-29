@@ -8,6 +8,7 @@ def contador_a():
 	while True:
 		with mi_lock:
 			print("lechuga")
+
 		with lock_2:
 			sleep(1)
 		
